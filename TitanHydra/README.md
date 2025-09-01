@@ -1,4 +1,4 @@
-# TitanHydra - Aplicativo de filmes
+# TitanHydra - Aplicativo de filmes - Aula 2
 
 Cotribuidores:
 
