@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Calculadora",
+    "slug": "Calculadora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/calculadora.png",
+    "scheme": "calculadora",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/calculadora.png"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/img/calculadora.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/img/calculadora.png"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
