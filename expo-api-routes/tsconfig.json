@@ -6,7 +6,7 @@
     "strict": true,
     "paths": {
       "@/*": [
-        "./app/*"
+        "./src/*"
       ]
     }
   },
