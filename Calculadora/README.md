@@ -1,6 +1,6 @@
 # Calculadora: Projeto utilizando Gluestack - Aula 3
 
-Contribuidores
+**Contribuidores**
 
-Airton Ronaldo Jimenez Mamani
-Lucas Bruno Calle Chambi
+- Airton Ronaldo Jimenez Mamani
+- Lucas Bruno Calle Chambi
