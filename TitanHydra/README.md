@@ -1,6 +1,7 @@
 # TitanHydra - Aplicativo de filmes - Aula 2
 
-Cotribuidores:
+**Cotribuidores:**
 
-Lucas Bruno Calle Chambi
-Airton Ronaldo Jimenez Mamani
+- Airton Ronaldo Jimenez Mamani
+- Lucas Bruno Calle Chambi
+- Vinicius Brandao Ambrosio
