@@ -1,22 +1,59 @@
-1º deletar a pasta App e dentro do assets o Fonts, pois não será necessario.
 
-2 - criar a pasta src, logo o app e criar arquivo index.tsx e user+api.ts
+### **Estrutura do Projeto**
 
-3 - iremos criar uma logica dentro do back-end para receber uma mensagem indicando que o servidor está funcionando pesquisando http://localhost:8081/user
+1.  **Refatorar Estrutura de Arquivos:**
+    
+    -   Remova a pasta `App` e a pasta `Fonts` dentro de `assets`, pois não serão utilizadas.
+        
+    -   Crie a pasta `src` na raiz do projeto. Dentro dela, crie a pasta `app`.
+        
+    -   Dentro de `src/app`, crie os arquivos `index.tsx` (para a parte visual/frontend) e `usuario+api.ts` (para a lógica do backend).
+        
 
-POST - Envio de dados 
-GET - Coletar dados
+### **Desenvolvimento do Backend**
 
-4 - após ter feito isso, devemos instalar uma extensão do vscode o thunder client - requisições de APIs.
+2.  **Configuração da API:**
+    
+    -   No backend, configure um endpoint para verificar se o servidor está funcionando. O endpoint `http://localhost:8081/usuario/` deve retornar uma mensagem confirmando que o servidor está online.
+        
+    -   Entenda a diferença entre as requisições:
+        
+        -   **`POST`**: Usado para **enviar dados** ao servidor (ex: dados de login, formulários).
+            
+        -   **`GET`**: Usado para **coletar dados** do servidor.
+            
 
-5 - iremos criar uma chave para login:
-email: admin@email.com
-password: 1234
+### **Testes e Login**
 
-e também criar uma condição caso o usuario coloque suas credencias incorretas.
+3.  **Testes de API:**
+    
+    -   Instale a extensão **Thunder Client** no VS Code. Isso permitirá que você teste suas requisições de API de forma fácil e rápida.
+        
+4.  **Lógica de Autenticação:**
+    
+    -   Crie a lógica de login no backend. O sistema deve aceitar as seguintes credenciais:
+        
+        -   **Email:** `admin@email.com`
+            
+        -   **Senha:** `1234`
+            
+    -   Implemente uma **condição de erro** para lidar com credenciais incorretas, retornando uma mensagem clara ao usuário.
+        
 
-6 - depois da parte visual do layout, precisamos criar uma pasta chamada server e criar um arquivo api.ts: inserir o link do servidor e a porta (http://localhost:8081/) com o axios que será responsavel.
+### **Conexão Frontend-Backend**
 
-7 - na parte visual, daremos atenção ao inputs que enviará os dados para funcionar, como o handleSignIn.
+5.  **Configuração da Conexão (Axios):**
+    
+    -   Crie uma pasta chamada `server` na raiz do seu projeto.
+        
+    -   Dentro dela, crie o arquivo `api.ts`.
+        
+    -   Configure o **Axios** para se conectar ao servidor. Defina a URL base da sua API: `http://localhost:8081/`. O Axios será responsável por todas as requisições HTTP do frontend.
+        
+6.  **Integração do Frontend:**
+    
+    -   No frontend, concentre-se na parte visual. Crie os **campos de input** (email e senha) para o usuário.
+        
+    -   Implemente a função `handleSignIn`, que será responsável por coletar os dados dos inputs e enviá-los para o backend usando a lógica configurada no passo 5.
 
-8 - Depois de termos finalizado o projeto, será necessario fazer o deploy (envio de projeto para nuvem) e criar uma pasta api para que o backend continue funcionando.
+    **OBS: Projeto em desenvolvimento...**
