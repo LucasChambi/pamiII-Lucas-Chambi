@@ -4,3 +4,5 @@
 
 - Airton Ronaldo Jimenez Mamani
 - Lucas Bruno Calle Chambi
+
+![](./img/Calculadora.png)
