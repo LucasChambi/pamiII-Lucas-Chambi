@@ -4,7 +4,7 @@
     "slug": "TitanHydra",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "https://play-lh.googleusercontent.com/k2BaLq9MgfgJCSGSTi5HY26FcdiCwlkO5F9X6oZgBPrguMvnWjrWgsER_O8tlsLegZ0",
     "scheme": "titanhydra",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -21,14 +21,14 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "https://play-lh.googleusercontent.com/k2BaLq9MgfgJCSGSTi5HY26FcdiCwlkO5F9X6oZgBPrguMvnWjrWgsER_O8tlsLegZ0"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "https://play-lh.googleusercontent.com/k2BaLq9MgfgJCSGSTi5HY26FcdiCwlkO5F9X6oZgBPrguMvnWjrWgsER_O8tlsLegZ0",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
