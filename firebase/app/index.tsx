@@ -6,12 +6,12 @@ import 'firebase/compat/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC7UAx31uzTjUXlwZYrrrRsz_rEllaWJNc",
-  authDomain: "meu-primeiro-firebase-5653f.firebaseapp.com",
-  projectId: "meu-primeiro-firebase-5653f",
-  storageBucket: "meu-primeiro-firebase-5653f.firebasestorage.app",
-  messagingSenderId: "714418231609",
-  appId: "1:714418231609:web:23f88281c92bf0d07d30e8"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
