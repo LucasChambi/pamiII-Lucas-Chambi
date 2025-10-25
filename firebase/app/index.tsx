@@ -13,11 +13,10 @@ const firebaseConfig = {
   messagingSenderId: "",
   appId: ""
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-import React,{ useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FlatList, Text, View } from 'react-native';
 
 export default function App() {
@@ -41,14 +40,32 @@ fetchData();
  }, []);
 
 return (
-  <View style={{ flex: 1, justifyContent: "center", alignItems: 'center' }}>
-    <Text>Lista de Nomes:</Text>
+  <View style={{ 
+    borderColor: "red", 
+    backgroundColor: "black", 
+    flex: 1, 
+    justifyContent: "center", 
+    alignItems: 'center', }}>
+
+    <Text style={{ 
+      fontSize: 24 ,
+      color: "white", 
+      fontFamily: "arial", 
+      fontWeight: "bold", 
+      marginTop: 20}}>Lista de Nomes:
+      </Text>
+
     <FlatList
       data={nomes}
       keyExtractor={(item) => item.id}
       renderItem={({ item }) => (
       <View>
-        <Text>{item.Nome} {item.Sobrenome}</Text>
+        <Text style={{ 
+          fontSize: 24, 
+          color: "white", 
+          fontFamily: "arial", 
+          fontWeight: "bold"}}>{item.Nome} {item.Sobrenome}
+          </Text>
       </View>
 )}
  />
