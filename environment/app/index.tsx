@@ -1,15 +1,11 @@
-import { Text, View } from "react-native";
+import { Button } from 'react-native';
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+function Post() {
+  const apiUrl = process.env.EXPO_PUBLIC_API_URL;
+
+  async function onPress() {
+    await fetch(apiUrl, { ... })
+  }
+
+  return <Button onPress={onPress} title="Post" />;
 }
