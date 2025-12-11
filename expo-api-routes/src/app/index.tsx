@@ -26,7 +26,7 @@ const [password, setPassword] = useState("")
     return (
         <View style={styles.container}>
             <TextInput style={styles.input} 
-            placeholder="E-mail" 
+            placeholder="email" 
             onChangeText={setEmail}>
             </TextInput>
 

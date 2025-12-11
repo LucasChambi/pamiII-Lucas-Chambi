@@ -1,6 +1,6 @@
-const { createRequestHandler } = require("@expo/server/adapter/vercel")
+import { createRequestHandler } from "@expo/server/adapter/vercel"
 
-module.exports = createRequestHandler({
+export default createRequestHandler({
   build: require("path").join(__dirname, "../dist/server"),
   mode: process.env.NODE_ENV,
 })
